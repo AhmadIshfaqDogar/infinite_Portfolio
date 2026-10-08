@@ -10,7 +10,7 @@ export const nodes = [
     subtitle: 'Designer · Developer',
     body: 'I build rare digital experiences. Not pages — worlds.',
     // ⬇️ SWAP THIS to '/images/me.jpg' when you add your photo
-    image: '/images/me.jpeg',
+    image: `${import.meta.env.BASE_URL}/images/me.jpeg`,
   },
 
   {
